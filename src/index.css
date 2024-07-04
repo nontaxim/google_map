@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .pac-icon {
+    background-image: url('/public/vite.svg')!important; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.pac-item:hover > .pac-icon {
+    background-image: url('/public/vite.svg')!important; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.pac-container {
+  margin-top: 5px;
+	background-color: pink;
+  border: none;
+	border-radius-bottom: 10px;
+}
+
+.pac-item-selected {
+	text-decoration: underline;
+}
+
+.pac-item-query {
+	color: red;
+}
+
+.pac-icon {
+	background-image: url('/vite.svg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.pac-item:hover > .pac-icon {
+	background-image: url('/vite.svg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.pac-item-selected > .pac-icon {
+  background-image: url('/vite.svg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.pac-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #30b;
+  border-top: none;
+}
+
+.pac-matched {
+  color: blue;
+}
